@@ -1,0 +1,225 @@
+	* {
+		margin: 0;
+		/*width: 100%;*/
+		font-family: "Playball";
+	}
+
+		.wraper{ /*the parent div for the whole page*/
+			/*background: pink;*/
+			display: flex;
+			flex-direction: column;
+			font-family: Helvetica;
+			z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+			width: 100%;
+		}
+		#contact {
+			width:200px;
+			height:50px;
+			color:#1F618D;
+			margin-right:5px;
+		}
+		span{
+			width:150px;
+			height:30px;
+			position: absolute;
+			
+		}
+		.column{ /*the first div with the nav bar*/
+			background: #DBE4EA;/*white;*/
+			font-size: 20px;
+			/*position: fixed;*/
+		}
+		.parent{ /*the parent div of the logo and nav bar*/
+			display: flex;
+			justify-content:space-between;
+			height: 150px;
+
+		}
+		#logo img{
+			height: 150px;
+			width: 150px;
+			margin-left: 30px;
+		}
+		#logo {
+			height: 150px;
+			width: 80px;
+			display: inline-block;
+			
+		}
+		#p{
+			width: 400px;
+			height: 150px;
+		}
+		p{
+			width: 200px;
+			height: 150px;
+			position: absolute;
+			margin-top:30px;
+			margin-right: 800px;
+			display: inline-block;
+			font-size: 30px;
+			font-style: bold;
+			text-align: center;
+			color: #1F618D ;
+			}
+
+		 	.main{
+		 	display: flex;
+    		font-family: 'Gloria Hallelujah';
+    		margin:0;
+		 	}
+		   .navbar{
+		    /*position: fixed;*/
+		    text-align: center;
+		    margin-top:50px;
+		    /*display: block;*/
+		   
+		    
+		   }
+		 	ul li{ /* navigation bar*/
+		    display:inline;
+		    list-style: none;
+		    top: 160px;
+		    left: 0;
+		    right:0;
+		    margin:0px;
+		    padding: 0px;
+		    }
+
+		   ul{
+		    background-color: /*white*/#DBE4EA;/*navigation bar -color*/
+		    
+		   }
+
+		   li a{
+		    display:inline-block; /*next to each other*/
+		    color: #2E86C1; /*color of the letters nav bar */
+		    text-align:center;
+		    padding:14px 16px;
+		    text-decoration:none;/*no underline*/
+		    font-size: 25px;
+		   }
+
+		   li a:hover, .dropdown:hover{/*dropdown menu color*/
+		   /* background-color:grey;
+		    box-shadow: 2px 2px black ;*/
+		    text-decoration: underline;
+		   }
+
+		   .dropdown{ /*bootsrap dd menu*/
+		    display:inline-block;
+		   }
+
+		   .content{ /*make it invisible*/
+		    display:none;
+		    position:absolute;
+		    background-color: (128, 128, 128,0.2);
+		    min-width:160px;
+		    box-shadow:0 8px 16px 0 rgba(0,0,0,0.3);
+		   }
+
+		   .content a{
+		    color:black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		    text-align:left;
+		   }
+
+		   .content a:hover{
+		    background-color:rgba(0,0,0,.3);
+		   }
+
+		   .dropdown:hover .content{
+		    display:block;
+		   }
+
+		   .footer{
+			  height: 150px;
+			  width: 100%;
+			  position: relative;
+			  display: flex;
+			  flex-direction: row;
+			  justify-content: space-between;
+			  text-align: left;
+		   }
+
+		   .fcontent{
+		   	background-color:#DBE4EA;
+		   	text-align: left;
+		   	width: 700px;
+		   }
+
+			.showOnScreen {
+			clip: rect(1px, 1px, 1px, 1px);
+			position: absolute ;
+			height: 1px;
+			width: 1px;
+			overflow: hidden;
+		}
+
+		.showOnScreen:hover,
+		/*.showOnScreen:active,
+		.showOnScreen:focus*/ {
+			background-color: #f1f1f1;
+			border-radius: 3px;
+			display: block;
+			font-size: 14px;
+			font-weight: bold;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000; /* Above WP toolbar */
+			}
+
+			.menu-social li a:before {
+		    display: inline-block;
+		    padding: 0 5px;
+		    vertical-align: top;
+		    font-size: 1.4em;
+		    color: #777;
+		    -webkit-font-smoothing: antialiased;
+			}
+
+			.social-media-icons li:hover {
+			    background-color: blue;
+			}
+
+			.social-media-icons li:hover > a {
+			    color: #1ED3A4;
+			}
+		  
+		 .fcontent img{
+		 	width: 25px;
+		 	height: 25px;
+		 }
+		 form{
+			padding: 10px 10px 10px 10px;
+			border: 2px solid white;
+			background-color: white;
+			width: 250px;
+			height: 250px;
+			padding: 25px ;
+
+		}
+		#search{
+			flex: 1;
+		}
+		#search1{
+			text-align:left ;
+		}
+		.search{
+			padding: 10px 10px 10px 10px;
+		}
+		input{
+			resize: horizontal;
+			width: 220px;
+		}
+		input:focus { /*when you click it turnes blue...it shows you where is your mouse*/
+	        min-width: 200px;
+	    	color:blue;
+		}

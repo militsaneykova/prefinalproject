@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rentals</title>
+	<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<style type="text/css">
+		
+		.wraper{
+			/*position: fixed;*/
+		}
+		.column-picture{
+			width: 100%;
+			height: 900px;
+		}
+		
+
+		.footer{
+			height: 100px;
+			width: 100%;
+		}
+		.main{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		#house1{
+			margin-top: 25px;
+			margin-left: 25px;
+			width: 400px;
+			height: 230px;
+			flex: 1;
+			border: 2px solid white;
+		}
+		#text{
+			padding: 25px 10px 0px 10px;
+			flex: 1;
+			border-bottom: 2px solid lightgrey;
+			height: 243px;
+		}
+		
+		.slideshow{ 
+			margin-left: 30px;
+			margin-top: 5px;
+			width: 1000px;
+		    position: absolute;
+		    display: flex;
+		    flex-direction: row;
+
+    	}
+		.slide {
+			margin-top: 5px;
+		    width: 800px;
+		    height: 500px;
+		   	flex: 1 ;
+		    	}
+
+		#right{
+			border: solid lightgrey;
+			border-radius: 30%;
+		    border-width: 0px 3px 3px 0px;
+		    padding: 3px;
+			width: 40px;
+			height: 30px;
+		    box-shadow: 8px 8px 12px silver;
+		    margin-left: 450px;
+		    position: absolute;
+		}
+		#left{
+			border:solid lightgrey;
+			border-radius: 30%;
+		    border-width: 0px 3px 3px 0px;
+		    padding: 3px;
+			width: 40px;
+			height: 30px;
+		    box-shadow: 8px 8px 12px silver;
+		    position: absolute;
+		}
+		/*#right1{
+			margin-top: 30px;
+		    margin-left: 428px;
+		    position: absolute;
+		    border: solid lightgrey;
+			border-radius: 30%;
+		    border-width: 0px 3px 3px 0px;
+		    padding: 3px;
+			width: 40px;
+			height: 30px;
+		    box-shadow: 8px 8px 12px silver;
+		    margin-left: 450px;
+		    position: absolute;
+		}
+		#left1{
+			margin-top: 30px;
+		    border-width: 0 3px 3px 0;
+		    border:solid lightgrey;
+			border-radius: 30%;
+		    border-width: 0px 3px 3px 0px;
+		    padding: 3px;
+			width: 40px;
+			height: 30px;
+		    box-shadow: 8px 8px 12px silver;
+		    position: absolute;
+		    margin-right: 10px;
+
+		}*/
+		.images{
+			margin-top: 0px;
+			height: 100px;
+			width: 140px;
+			transform: rotate(90deg);
+			
+		}
+		
+		#buttons{ 
+			border-radius: 30%;
+			width: 50px;
+			background-color: lightblue;
+
+		}
+		.bothbottons{ /*to here//////////////////////////////////*/
+			height: 5px;
+
+		}
+		.bothbottons1{
+			height: 5px;
+		}
+		.secondHouse{
+			display: flex;
+			width: 1200px;
+		}
+        #houseSale{
+        	padding-top: 200px;
+        	padding-left: 25px;
+
+        }
+        #houseSaleText{
+        	padding-top: 200px;
+        	padding-left: 10px;
+        	height: 297px;
+        	border-bottom: 2px solid lightgrey;
+        }
+        h2{
+        	position: absolute;
+        	background-color: white;
+        	margin-top: 300px;
+        	margin-left: 30px;
+        }
+        .slideshow1{ 
+			margin-left: 35px;
+			margin-top: 35px;
+			width: 1000px;
+		    position: absolute;
+		    display: flex;
+		    flex-direction: row;
+
+    	}
+		.slide1 {
+			margin-top: 5px;
+		    width: 800px;
+		    height: 500px;
+		   	flex: 1 ;
+		    	}
+
+	</style>
+</head>
+<body>
+ <div class="main">
+	<div class="wraper"> <!-- this is the parent -->
+		<div class="column"> <!-- the first div with the nav bar -->
+			<div class="parent"> <!-- the parent div of the logo and nav bar -->
+				<div id="logo"><img src="logo.png"></div>
+				<div id="p"><p>Catherine Federer<br> Real Esate</p></div>
+				<div class="navbar">
+					<ul>
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="#" class="active">Rentals</a></li>
+						<li><a href="#" class="active">Sales</a></li>
+						<li clasdfnnmnmnhjredfs="dropdown"><a class= "dropbtn" href="#">Services</a>
+							<div class="content">
+								<a href="#">Home Rent</a>
+								<a href="#">Home Bying</a>
+								<a href="#">Home Selling</a>
+							</div>
+						</li>
+						<li><a class="active" href="#">News</a></li>
+						<li><a class="active" href="#">About us</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+</div></div>		
+		<div class="column-picture">
+			<div class="main">
+				<div id="picture"><img id="house1" src="pic2.jpeg" width="500px" height="200px"></div>
+				<div id="text"> <h3>One Bedroom Apartment</h3><br>
+								Location: 73rd and Forthamilton Pkwy.<br>
+								 Hardwood floors edroom. E Pets upon approval.<br> Easy on street parking. <br>
+								 Heat and water included. <br>
+								 Price: $1800 <br>
+								 Beautiful Doorman Building White Glove Building Loaded with Amenities Huge 1 bedroom<br>
+
+								Polished Hardwood Floors
+									AMAZING SUNLIGHT<br>
+									Tons of Closet space<br>
+									High End Appliances<br>
+									Queens Size Bedroom
+									Marble Bathroom<br>
+									Swiming Pool, Gym, Sauna, Laundry Price includes amenitie<br>
+
+
+
+				<!-- Apartment Paperwork / Sales Checklist<br>
+							*Current Pay Stubs<br>
+							*Your last two pay stubs will suffice<br> 
+							*W2s form - most recent one<br>
+							*Federal Tax Returns<br>
+							*Copy of Current Driver's License<br> -->
+							<!-- https://www.thebalance.com/what-kind-of-paperwork-do-i-need-to-buy-a-home-1798239 -->
+				</div>
+				<div class="search">
+					<form>
+						<div id="search1">Search for apartment</div><br>
+					  All:<br>
+					  <input type="text" name="location" value="..."><br>
+					  Location:<br>
+					  <input type="text" name="minimum price" value="..."><br>
+					  Price Range:<br>
+					   <input type="text" name="minimum bedrooms" value="..."><br>
+					  Bedrooms:<br>
+					  <input type="text" name="minimum bath" value="..."><br>
+					  Bath<br><input type="text" name="minimum bath" value="..."><br>
+					  <input id="buttons" type="submit" value="Go">
+					  <input id="buttons" type="reset" value="Reset">
+					</form>
+
+				</div>
+			</div>
+			
+			<div class="slideshow">
+				<div class="slide" id="pic1">
+					<img class="images" onclick="changepic('kitchen.JPG')" src="kitchen.JPG" >	
+					<img class="images" onclick="changepic('room4.jpg')"  src="room4.jpg">
+				    <img class="images" onclick="changepic('room.jpg')" src="room.JPG">
+				</div>
+				<div class="slide" id="pic2">
+					<img  class="images" onclick="changepic('room1.JPG')" src="room1.jpg">
+					<img  class="images" onclick="changepic('balcony.JPG')" src="balcony.JPG">
+				    <img  class="images" onclick="changepic('kitchen1.jpg')" src="kitchen1.jpg">
+				</div>
+				</div>
+				<div class="bothbottons">
+						<div id="right"><button onclick="plusDivs(-1)"></button></div>
+						<div id="left"><button onclick="plusDivs(1)"></button></div>
+				</div>
+
+<!-- I create a onclick event an thru a function i am passing the img source , so it changes onclick
+im getting the image by id and then i change the image -->
+
+				
+<div class="secondHouse">
+   <div id="houseSale"><img src="pic3.jpeg" width="400px" height="300px" ></div>
+		<div id="houseSaleText">Ultra high-end house located in the heart of the vibrant Murray Hill, steps away from all major transportation, restaurants and night life. Building <br> features 24/7 doorman and concierge service, laundry facility and fully equipped fitness center.<br>
+
+		Amazing convertible 3BR house with outstanding views from enormous floor-to-ceiling windows. Apartment features brand-new granite kitchen<br> and 2 full marble bathrooms.
+
+
+				<div class="slideshow1">
+				<div class="slide1" id="pic3">
+				    <img class="images" onclick="changepic1('kitchen4.jpg')" src="kitchen4.jpg">
+				    <img class="images" onclick="changepic1('room7.jpg')" src="room7.jpg">
+				    <img class="images" onclick="changepic1('kitchen5.jpg')" src="kitchen5.jpg">
+				</div>
+				<div class="slide1" id="pic4">
+				    <img class="images" onclick="changepic1('room5.jpg')" src="room5.jpg">
+				    <img class="images" onclick="changepic1('kitchen7.jpg')" src="kitchen7.jpg">
+				    <img class="images"onclick="changepic1('kitchen8.jpg')" src="kitchen8.jpg">
+				</div>
+				</div>
+				<div class="bothbottons1">
+						<div id="right"><button onclick="plusDivs1(-1)"></button></div>
+						<div id="left"><button onclick="plusDivs1(1)"></button></div>
+				</div>
+
+	</div>
+	</div>						
+
+</div>
+       
+
+<div class="column footer">
+	<div class="footer">
+		<section class="menu-section">
+			<nav id="social-menu" class="social-menu menu" role="navigation">
+				<ul class="fcontent">
+					<li><a href="http://twiter.com">
+						<span class="showOnScreen">Twiter</span>
+							<img src="twitter.png"></a></li>
+					<li><a href="http://facebook.com">
+						<span class="showOnScreen">Facebook</span>
+							<img src="facebook.png"></a></li>
+					<li><a href="http://linkedin.com">
+						<span class="showOnScreen">Linkedin</span>
+							<img src="linkedin.png"></a></li>
+					<li><a href="http://youtube.com">
+						<span class="showOnScreen">You Tube</span>		
+						<img src="youtube.png"></a></li>
+					<li><a href="http://instagram.com">
+						<span class="showOnScreen">Instagram</span>
+							<img src="instagram.png"></a></li>
+				</ul>
+			</nav>
+		</section>
+	</div>
+</div>
+</div>
+	
+</div>
+
+<script type="text/javascript">
+	  var slideNext = 1;										
+        showDivs(slideNext);
+
+        function plusDivs(n){
+            showDivs(slideNext+=n);
+        }
+        function showDivs(n){
+            
+            var x = document.getElementsByClassName("slide");
+            if (n > x.length){slideNext = 1}
+            if (n < 1){slideNext = x.length}
+            var i = 0;
+            while (i<x.length){
+                x[i].style.display = "none";
+                i++;
+            }
+            x[slideNext-1].style.display = "block";
+        }
+
+       function changepic(photo){  
+       	var image = document.getElementById("house1");
+       	image.src = photo;
+       }
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+       var slideNext1 = 1;
+  		 showDivs1(slideNext1);
+        function plusDivs1(p){
+            showDivs1(slideNext1+=p);
+        }
+        function showDivs1(p){ 
+            var y = document.getElementsByClassName("slide1");
+            if (p > y.length){slideNext1 = 1}
+            if (p < 1){slideNext1 = y.length}
+            var t = 0;
+            while (t<y.length){
+                y[t].style.display = "none";
+                t++;
+            }
+            y[slideNext1-1].style.display = "block";
+        }
+       function changepic1(photo1){  
+
+       	var image1 = document.getElementById("pic3");
+       	image1.src = photo1;
+       }
+       
+</script>
+</div>
+</body>
+</html>
